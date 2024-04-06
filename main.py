@@ -33,7 +33,11 @@ def team():
 
 @app.route("/news")
 def news():
-    return render_template("news")
+    return render_template("news.html")
+
+@app.route("/base")
+def base():
+    return render_template("base.html")
 
 
 if __name__ == '__main__':

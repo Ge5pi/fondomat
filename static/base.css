@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-icon {
+    width: 30px;
+    height: 20px;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.line {
+    width: 30px;
+    height: 3px;
+    background-color: #000;
+    margin: 5px 0;
+}
+
+.hidden-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    background-color: #333;
+    transform: translateX(-250px);
+    transition: transform 0.3s ease;
+}
+
+.hidden-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 50px 0 0 0;
+}
+
+.hidden-nav ul li {
+    padding: 10px 20px;
+}
+
+.hidden-nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.hidden-nav.active {
+    transform: translateX(0);
+}
