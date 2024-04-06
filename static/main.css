@@ -1,4 +1,4 @@
-body{
-    background-color: linear-gradient(#7FFFD4, #20B2AA)
-    
+html{
+    background: linear-gradient(#7FFFD4, #20B2AA);
+    height: 100%;
 }
