@@ -127,4 +127,32 @@ body{
     width: 35%;
     justify-self: start;
 }
+.principles{
+    background-repeat: no-repeat;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Fugaz One", "montserrat", sans-serif;
+    color: #fff;
 
+}
+.blocks2 {
+    background-color: #2C2D34; 
+    padding: 20px;  
+}
+
+.thirdblock {
+    color: #77B255; 
+    text-align: center;
+}
+
+.fourthblock {
+    color: white; 
+    line-height: 1.5; 
+    height: 6em; 
+    overflow: hidden; 
+    margin: 0; 
+}
