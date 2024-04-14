@@ -141,7 +141,10 @@ body{
 }
 .blocks2 {
     background-color: #2C2D34; 
-    padding: 20px;  
+    padding: 20px; 
+    position:relative;
+    right:-300px;
+    bottom:-100px; 
 }
 
 .thirdblock {
@@ -151,8 +154,12 @@ body{
 
 .fourthblock {
     color: white; 
-    line-height: 1.5; 
-    height: 6em; 
+    line-height: 1.5;  
     overflow: hidden; 
     margin: 0; 
+}
+.bi-recycle{
+    position: relative;
+    top: -130px;
+    left:-62px;
 }
