@@ -10,31 +10,6 @@ app.config['SECRET_KEY'] = 'a really really really really long secret key'
 def main():
     return render_template("main.html")
 
-
-@app.route("/product")
-def product():
-    return render_template("product.html")
-
-
-@app.route("/company")
-def company():
-    return render_template("company.html")
-
-
-@app.route("/partners")
-def partners():
-    return render_template("partners.html")
-
-
-@app.route("/team")
-def team():
-    return render_template("team.html")
-
-
-@app.route("/news")
-def news():
-    return render_template("news.html")
-
 @app.route("/base")
 def base():
     return render_template("base.html")

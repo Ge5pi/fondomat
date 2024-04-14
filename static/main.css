@@ -1,4 +1,130 @@
-html{
-    background: linear-gradient(#7FFFD4, #20B2AA);
-    height: 100%;
+.nav {
+    background-color: #50C878;
+    overflow: hidden;
+    display: flex;
+    font-size: 20px;
+    position: fixed;
+    width: 100%;
+    padding: 0 2px;
+    justify-content: space-between;
 }
+
+
+.other{
+    font-family: "montserrat", sans-serif;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1%;
+}
+
+.other a:hover{
+    background-color: #228B22;
+    color: black;
+}
+
+body{
+
+    margin: 0;
+}
+
+.logo{
+    display: flex;
+    width: 5%;
+    margin: 3px 5%;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img{
+    width: 50%;
+    min-width: 50px;
+    position: static;
+}
+
+.nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.logo a{
+    font-family: "Fugaz One", "montserrat", sans-serif;
+    font-style: normal;
+}
+
+.hrefs a{
+    font-family: "montserrat", sans-serif;
+    font-weight: 700;
+}
+
+.hrefs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hrefs a:hover {
+    background-color: #228B22;
+    color: black;
+}
+
+.team{
+    background-image: url('imgs/team.png');
+    background-repeat: no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('imgs/team.png');
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Fugaz One", "montserrat", sans-serif;
+    color: #fff;
+
+}
+
+
+.team img{
+    background-color: rgba(0, 0, 0, .5)
+}
+
+.m-header{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.5em;
+    margin-top: 3%;
+}
+
+.team h1{
+    font-size: 48px;
+}
+
+.team h2{
+    font-size: 36px;
+}
+
+.team p{
+    font-size: 36px;
+}
+
+.blocks{
+    display: grid;
+}
+
+.firstblock{
+    width: 30%;
+    justify-self: end;
+}
+
+.secondblock{
+    width: 35%;
+    justify-self: start;
+}
+
