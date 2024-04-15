@@ -129,37 +129,61 @@ body{
 }
 .principles{
     background-repeat: no-repeat;
-    width: 100%;
+    width: 60%;
     height: fit-content;
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    justify-content: space-between;
+    justify-self: center;
     font-family: "Fugaz One", "montserrat", sans-serif;
+    color: #000;
+    gap: 60px;
+
+}
+
+.container{
+    display: grid;
+    gap: 50px;
+}
+
+.prblock{
+    height: 340px;
+    background-color: #2C2D34;
+    box-shadow: 4px 5px 4px 1px #00000040;
+}
+
+.prblock span{
+    color: #77B255;
+    font-family: "montserrat";
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.prblock svg{
+    margin: -5vmin 0 0 -5vmin;
+}
+
+.prblock img{
+    margin: -5vmin 0 0 -5vmin;
+}
+
+
+.prtext{
+    text-align: baseline;
+    margin: 0 0 0 3%;
+}
+
+.prtext p{
     color: #fff;
-
-}
-.blocks2 {
-    background-color: #2C2D34; 
-    padding: 20px; 
-    position:relative;
-    right:-300px;
-    bottom:-100px; 
+    font-size: 24px;
+    margin: 1% 1% 1% 0;
 }
 
-.thirdblock {
-    color: #77B255; 
+.headers{
+    font-size: 64px;
+    font-weight: 600;
+    font-family: "montserrat";
     text-align: center;
-}
-
-.fourthblock {
-    color: white; 
-    line-height: 1.5;  
-    overflow: hidden; 
-    margin: 0; 
-}
-.bi-recycle{
-    position: relative;
-    top: -130px;
-    left:-62px;
 }
