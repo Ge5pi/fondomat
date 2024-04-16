@@ -187,3 +187,16 @@ body{
     font-family: "montserrat";
     text-align: center;
 }
+
+.gallery{
+    margin: 0 3%;
+    height: 90vh;
+    width: 100%;
+    align-self: center;
+    display: grid;
+}
+
+.gallery img{
+    width: 80%;
+    justify-self: center;
+}
