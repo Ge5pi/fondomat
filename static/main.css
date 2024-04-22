@@ -1,3 +1,9 @@
+html{
+    overflow-x:hidden;
+    width: 103%;
+}
+
+
 .nav {
     background-color: #50C878;
     overflow: hidden;
@@ -74,10 +80,8 @@ body{
 }
 
 .team{
-    background-image: url('imgs/team.png');
-    background-repeat: no-repeat;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('imgs/team.png');
-    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('imgs/ocean.jpg');
+
     height: fit-content;
     display: flex;
     justify-content: center;
@@ -85,7 +89,8 @@ body{
     flex-direction: column;
     font-family: "Fugaz One", "montserrat", sans-serif;
     color: #fff;
-
+    text-align: center;
+    text-align: center;
 }
 
 
@@ -111,6 +116,7 @@ body{
 }
 
 .team p{
+margin-right: 1.5%;
     font-size: 36px;
 }
 
@@ -129,10 +135,10 @@ body{
 }
 .principles{
     background-repeat: no-repeat;
-    width: 60%;
+    width: 80%;
     height: fit-content;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 45% 45%;
     justify-content: center;
     align-items: center;
     justify-content: space-between;
@@ -175,10 +181,13 @@ body{
     margin: 0 0 0 3%;
 }
 
-.prtext p{
+.principles p{
     color: #fff;
     font-size: 24px;
     margin: 1% 1% 1% 0;
+    top: 10%;
+    position: relative;
+    margin: 0 4%;
 }
 
 .headers{
@@ -190,7 +199,7 @@ body{
 
 .gallery{
     margin: 0 3%;
-    height: 90vh;
+    height: fit-content;
     width: 100%;
     align-self: center;
     display: grid;
@@ -199,4 +208,126 @@ body{
 .gallery img{
     width: 80%;
     justify-self: center;
+}
+
+.path{
+justify-self: center;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    margin: 0 5%;
+    gap: 5%;
+
+}
+
+.pathbl{
+    height: 250px;
+    padding: 2%;
+    font-family: "montserrat";
+    font-size: 20px;
+    background-color: #D9D9D9;
+}
+
+.number{
+    font-size: 24px;
+}
+
+.pathtxt{
+    line-height: 120%;
+}
+
+.hdtxt{
+    margin-bottom: 150%;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #2C2D34;
+    width: 100%;
+    color: #fff;
+    justify-content: space-between;
+    font-family: "montserrat";
+    font-size: 20px;
+}
+
+.nameft img{
+    width: 50%;
+}
+
+.nameft{
+    display: flex;
+    width: 20%;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    right: 200px;
+}
+
+.nameft h2{
+    font-size: 36px;
+}
+
+.links svg{
+    width: 50px;
+    color: #fff;
+}
+
+.links path{
+    width: 50px;
+    color: #fff;
+}
+
+.links{
+position: relative;
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+}
+
+.mail{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.phone{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.inst{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    color: #fff;
+}
+
+@media (max-width: 1570px){
+    .prblock span{
+        font-size: 28px;
+    }
+
+    .principles p{
+        font-size: 18px;
+    }
+
+    .prtext p{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1330px){
+    .headers{
+        font-size: 56px;
+    }
+
+    .path{
+        grid-template-columns: repeat(2, auto);
+        bottom: 1%;
+    }
 }
