@@ -1,4 +1,8 @@
 from flask import Flask, render_template, request, redirect, flash
+from fastapi import FastAPI
+from fastapi.responses import RedirectResponse
+from textblob import TextBlob
+#import uvicorn
 
 app = Flask(__name__)
 app.app_context().push()
